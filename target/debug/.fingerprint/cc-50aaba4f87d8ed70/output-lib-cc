@@ -1,0 +1,24 @@
+error: rustc interrupted by SIGSEGV, printing backtrace
+
+/home/jacoba/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/librustc_driver-d6f66a8619a171d6.so(+0x2e40fd3) [0x7a2086c40fd3]
+/usr/lib/libc.so.6(+0x3d1d0) [0x7a2083afa1d0]
+/home/jacoba/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.78.0-stable(+0x637466f) [0x7a208257466f]
+/home/jacoba/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.78.0-stable(_ZN4llvm18StringTableBuilder3addENS_19CachedHashStringRefE+0x270) [0x7a2081ed1070]
+/home/jacoba/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.78.0-stable(+0x5cd1daa) [0x7a2081ed1daa]
+/home/jacoba/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.78.0-stable(+0x6261f69) [0x7a2082461f69]
+/home/jacoba/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.78.0-stable(_ZN4llvm16MCObjectStreamer10finishImplEv+0xdb) [0x7a2082461d35]
+/home/jacoba/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.78.0-stable(_ZN4llvm13MCELFStreamer10finishImplEv+0x96) [0x7a2082461b9c]
+/home/jacoba/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.78.0-stable(+0x65b00cd) [0x7a20827b00cd]
+/home/jacoba/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.78.0-stable(_ZN4llvm13FPPassManager14doFinalizationERNS_6ModuleE+0x4a) [0x7a20825035d2]
+/home/jacoba/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.78.0-stable(_ZN4llvm6legacy15PassManagerImpl3runERNS_6ModuleE+0x378) [0x7a208245570c]
+/home/jacoba/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/librustc_driver-d6f66a8619a171d6.so(LLVMRustWriteOutputFile+0x190) [0x7a20889c4b90]
+/home/jacoba/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/librustc_driver-d6f66a8619a171d6.so(+0x4bc47a4) [0x7a20889c47a4]
+/home/jacoba/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/librustc_driver-d6f66a8619a171d6.so(+0x4bc266a) [0x7a20889c266a]
+/home/jacoba/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/librustc_driver-d6f66a8619a171d6.so(+0x4bc235a) [0x7a20889c235a]
+/home/jacoba/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/librustc_driver-d6f66a8619a171d6.so(+0x4bc65be) [0x7a20889c65be]
+/home/jacoba/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/librustc_driver-d6f66a8619a171d6.so(+0x4bc60a3) [0x7a20889c60a3]
+/home/jacoba/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libstd-d2ef02247056996e.so(rust_metadata_std_e4dfbc2c3f4b09f1+0xc1145) [0x7a2083d99145]
+/usr/lib/libc.so.6(+0x9439d) [0x7a2083b5139d]
+/usr/lib/libc.so.6(+0x11949c) [0x7a2083bd649c]
+
+note: we would appreciate a report at https://github.com/rust-lang/rust
